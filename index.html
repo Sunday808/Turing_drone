@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--This Document is made by SunDa-->
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
+  <title>Turing_Machine_Group17</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>  
+  <div id="table-wrapper"> 
+  <table id="tape">
+  <tr>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+</table>
+</div>
+<div id="arrow"></div>
+<button id="move-button" type="button">Move</button>
+<button id="reset-button" type="button">Reset</button>
+<p></p> 
+<table border="1">
+  <div>当前高度：<strong id="cur_metre">0米</strong></div>
+  <div style="left: 68px;position: relative;"><strong>Program Table</strong></div>
+
+  <tr>
+    <th>当前状态</th>
+    <th>读取到0</th>
+    <th>读取到1</th>
+  </tr>
+  <tr class='t_green'>
+    <th>地面静止</th>
+    <th>停机</th>
+    <th>进入滑行</th>
+  </tr>
+  <tr>
+    <th>滑行</th>
+    <th>进入地面静止</th>
+    <th>上升1米</th>
+  </tr>
+  <tr>
+    <th>上升1米</th>
+    <th>下降1米</th>
+    <th>上升1米</th>
+  </tr>
+  <tr>
+    <th>下降1米</th>
+    <th>下降1米</th>
+    <th>上升1米</th>
+  </tr>
+</table>
+<script src="script.js"></script>
+</body>
+
+</html>
